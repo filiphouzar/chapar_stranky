@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaparBag</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html"><img src="fotky/chapar_logo.svg" alt="logo"></a>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="sortiment.html">Sortiment</a></li>
+            <li><a href="dodani.html">Dodání a Ceník</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="fotky/menu.png" alt="menu" onclick="toggleMenu()">
+        </div>
+    </nav>
+    <section id="s1_main">
+        <div class="obsah">
+            <h1>Přední výrobce transportních sáčků</h1>
+            <p class="land">Specializujeme se na výrobu transportních sáčků pro akvaristiku – rychle, kvalitně a spolehlivě od roku <span class="color">2011</span>.</p>
+            <button><a class="btn" href="#s2">Více o nás</a></button>
+        </div>
+    </section>
+    <section id="s2">
+        <div class="obsah">
+            <h2 class="onastitle">O <span class="color">nás</span></h2>
+            <p class="onas">Firma CHAPAR bag s.r.o. vznikla v roce 2011 a navazuje na dlouholetou tradici výroby transportních sáčků v Batelově na Vysočině. Dodáváme většině předních českých firem i partnerům v EU, jejichž spokojenost je pro nás zárukou kvality. Sáčky vyrábíme z prvotřídní folie, v široké škále rozměrů a s krátkými dodacími lhůtami. Věříme, že spolehlivý sáček je základem úspěchu v akvaristice, a chceme být Vaším dlouhodobým partnerem. Nabízíme také kvalitní gumičky s vysokým obsahem kaučuku a další obalové produkty. Vyrábíme i speciální obaly a formy z různých typů folie, například pro stavebnictví. Máte-li individuální požadavky, rádi pro Vás najdeme řešení.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 CHAPAR <span class="color">bag</span> s.r.o. Všechna práva vyhrazena.</p>
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+</body>
+</html>

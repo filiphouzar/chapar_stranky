@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 69.43">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Poppins-Medium, Poppins;
+        font-size: 23.97px;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #62b2e4;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-8 {
+        fill: #1d1d1b;
+      }
+
+      .cls-9 {
+        fill: url(#Nepojmenovaný_přechod_6);
+      }
+
+      .cls-9, .cls-2, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-15, .cls-14 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: .5px;
+      }
+
+      .cls-10 {
+        fill: #f49819;
+      }
+
+      .cls-11 {
+        fill: #bd7832;
+      }
+
+      .cls-12 {
+        fill: #bd7833;
+      }
+
+      .cls-4 {
+        fill: #3e7abd;
+      }
+
+      .cls-13 {
+        fill: #2f519f;
+      }
+
+      .cls-16 {
+        opacity: .6;
+      }
+
+      .cls-5 {
+        fill: #3769a2;
+      }
+
+      .cls-6 {
+        fill: #0098d6;
+      }
+
+      .cls-7 {
+        fill: #298aca;
+      }
+    </style>
+    <linearGradient id="Nepojmenovaný_přechod_6" data-name="Nepojmenovaný přechod 6" x1="171.14" y1="64.38" x2="171.14" y2="8.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2581c4" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#2581c4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Vrstva_1" data-name="Vrstva 1">
+    <text class="cls-1" transform="translate(7.7 41.16)"><tspan x="0" y="0">ChaparBag</tspan></text>
+    <rect class="cls-15" width="200" height="69.43"/>
+  </g>
+  <g id="Vrstva_2" data-name="Vrstva 2">
+    <g>
+      <path class="cls-9" d="M190.5,64.38c-12.73-4.44-25.54-8.65-38.27-13.09-3.46-15.09,14.94-20.71,10.39-36.54,7.18-2.39,10.78-3.58,17.96-5.96,12.33,19.54-4.09,36.04,9.92,55.6Z"/>
+      <line class="cls-13" x1="163.27" y1="17.24" x2="181.29" y2="10.66"/>
+      <path class="cls-14" d="M163.16,22.27c6.11-5.08,13.17-6.83,20.94-5.2"/>
+      <path class="cls-14" d="M160.12,29.8c4.36-8.16,16.18-12.81,24.93-9.8"/>
+    </g>
+    <circle class="cls-5" cx="165.19" cy="32.12" r="1.2"/>
+    <circle class="cls-7" cx="167.95" cy="25.23" r=".95"/>
+    <circle class="cls-3" cx="166.65" cy="29.01" r=".69"/>
+  </g>
+  <g id="Vrstva_3" data-name="Vrstva 3">
+    <g class="cls-16">
+      <path class="cls-10" d="M172.66,49.17c-1.89-2.22-1.71-2.62-2.94-4.02-.73-.84-4.02-4.6-8.53-4.56-2.58.02-6.19,1.3-6.61,3.58-.39,2.13,1.99,4.05,3.88,5.59,4.35,3.52,9.06,3.92,12.02,4.13,1.33.09,4.95.35,5.32-.77.24-.73-1.06-1.5-3.15-3.95Z"/>
+      <path class="cls-12" d="M163.06,46.32c1.51-.48,4.8,2.55,4.8,2.55,0,0-2.6,2.71-4.5,1.9s-2.33-3.16-2.33-3.16l2.03-1.3Z"/>
+      <g>
+        <circle class="cls-2" cx="158.28" cy="44.5" r="1.48"/>
+        <circle class="cls-8" cx="158.28" cy="44.5" r=".56"/>
+      </g>
+      <path class="cls-11" d="M175.11,50.74s4.68-1.89,7.91-.53c.08.03.24.11.32.27.27.53-.42,1.6-1.3,2.07-.36.19-.93.38-1.58.38-.51,0-.75-.14-.85,0-.23.3.88,1.11.74,2.21-.04.35-.2.6-.24.67-.3.47-.76.64-.89.68-.24.09-.74.21-1.87-.22-1.16-.44-1.96-1.08-2.36-1.43-1.09-.94-2.12-1.83-1.94-2.68.06-.29.29-.7,2.06-1.42Z"/>
+      <path class="cls-11" d="M166.12,41.56c-.29-1.69,2.1-3.99,2.41-3.79.16.1-.32.75-.22,1.8.07.72.34.8.94,2.13.38.84.28.82.79,2.02.29.68.41.89.57,1.26,0,0,.08.19.18.44.11.27.82,2.06.69,2.13-.09.04-.41-.65-1.24-1.76-.33-.44-.78-1.04-1.48-1.73-.5-.49-.88-.86-1.35-1.16-.22-.14-.42-.31-.63-.46-.23-.16-.38-.26-.5-.46,0,0-.11-.18-.15-.41Z"/>
+    </g>
+    <circle class="cls-4" cx="159.41" cy="37.75" r="1.2"/>
+    <circle class="cls-6" cx="162.31" cy="35.09" r=".6"/>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaparBag</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html"><img src="fotky/chapar_logo.svg" alt="logo"></a>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="sortiment.html">Sortiment</a></li>
+            <li><a href="dodani.html">Dodání a Ceník</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="fotky/menu.png" alt="menu" onclick="toggleMenu()">
+        </div>
+    </nav>
+    <section id="s1_1">
+        <div class="obsah">
+            <h2 class="transport">Transportní <span class="color">sáčky</span></h2>
+            <p class="sacgum">Nabízíme sáčky pro transport akvarijních ryb, vyráběné pouze z kvalitní certifikované polyethylenové folie. Sáčky vyrábíme v šířkách od <span class="color">100</span> mm a v různých délkách od <span class="color">250</span> mm, přičemž délku si stanoví zákazník podle svých potřeb. Síla folie se pohybuje od <span class="color">40</span> do <span class="color">200</span> mikronů. Přehled nejčastěji dodávaných rozměrů naleznete v sekci Ceník. Široká rozměrová variabilita našich sáčků a individuální přístup k požadavkům každého akvaristy umožňují uspokojení potřeb většiny zákazníků. Dále jsme schopni dodat tyto sáčky &nbsp; v barevném provedení (zelená, červená, žlutá, černá a bílá) v různém stupni zabarvení, od barevného nádechu až po zcela neprůhledné.</p>
+            <div class="fotky">
+                <img class="svar_obr" src="fotky/svar_1.jpg" alt="svar_1">
+                <img class="svar_foto" src="fotky/svar-1.JPG" alt="svar-1">
+                    <p>Transportní sáčky v šířkách od <span class="color">100</span> do <span class="color">240</span> mm jsou ukončeny dvěma půlkulatými a jedním rovným svárem.</p>
+            </div>
+            <div class="fotky">          
+                <img class="svar_obr" src="fotky/svar_2.jpg" alt="svar_2">
+                <img class="svar_foto" src="fotky/svar-2.JPG" alt="svar-2">
+                    <p>Transportní sáčky v šířkách <span class="color">260</span> až <span class="color">300</span> mm jsou ukončeny dvěma půlkulatými sváry.</p>
+            </div>
+            <div class="fotky">
+                <img class="svar_obr" src="fotky/svar_3.jpg" alt="svar_3">
+                <img class="svar_foto" src="fotky/svar-3.JPG" alt="svar-3">
+                    <p>U šířek nad <span class="color">300</span> mm používáme plochý svár tzv. do "<span class="color">véčka</span>".</p>
+            </div>
+        </div>
+    </section>
+    <section id="s1_1">
+        <div class="obsah">
+            <h2 class="transport">Gumi<span class="color">čky</span></h2>
+            <p class="sacgum">Nabízíme také kvalitní latexové gumičky s vysokým obsahem kaučuku (až <span class="color">80 %</span>). Základní sortiment tvoří silné (<span class="color">5</span> mm široké) a slabší (<span class="color">3</span> mm široké), tloušťka všech gumiček je <span class="color">1,2</span> mm. Délka gumičky = zploštění gumičky do rovného tvaru (nebo-li roztříhněte gumičku, změříte délku vzniklého provázku a vydělíte dvěmi). Nabízené rozměry naleznete v sekci Ceník.</p>
+            <div class="fotky_2">
+                <img src="fotky/gumicky_foto.jpg" alt="gum_foto" class="gum_foto">
+                <img src="fotky/gumicky_foto_2.jpg" alt="gum_foto" class="gum_foto">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 CHAPAR <span class="color">bag</span> s.r.o. Všechna práva vyhrazena.</p>
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+</body>
+</html>

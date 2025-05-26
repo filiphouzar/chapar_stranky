@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+:root
+{
+    --white: #ffff;
+    --primary-color: #337bc2;
+    --secondary-color: #1f4c79;
+    --third-color: #1bdd72;
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    position: relative;
+    height: 120px;
+    /*box-shadow: 0 5px 6px rgba(0, 0, 0, 0.404);*/
+}
+
+img
+{
+    width: 270px;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+nav ul li a:hover
+{
+    color: var(--third-color);
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon img{
+    color: var(--white);
+    width: 40px;
+}
+
+@media (max-width:1100px) 
+{
+    nav ul{
+        position: absolute;
+        top: 115px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--primary-color);
+        gap: 0;
+        overflow: hidden;
+        box-shadow: 0 8px 6px rgba(0, 0, 0, 0.3);
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+}
+
+#s1_main
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-image: url(fotky/ryby_pozadí.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#s1
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color);
+}
+
+.obsah
+{
+    margin: auto;
+}
+
+h1
+{
+    font-size: 55px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.land
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: var(--white);
+    padding: 0px 25px 25px 25px;
+}
+
+@media (max-width:1480px)
+{
+    h1
+    {
+        font-size: 45px;
+        letter-spacing: 3px;
+    }
+
+    .land
+    {
+        font-size: 17px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width:1130px)
+{
+    h1
+    {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .land
+    {
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+}
+
+#s2
+{
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+}
+
+.color
+{
+    color: var(--third-color);
+}
+
+h2
+{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: var(--white);
+    text-align: center;
+}
+
+.onas
+{
+    padding: 10px 20px 40px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: var(--white);
+}
+
+button
+{   
+    display: flex;
+    color: var(--white);
+    background-color: var(--third-color);
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: auto;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+button a
+{
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+    z-index: -1;
+    box-shadow: 0px 6px 20px 0px var(--third-color);
+}
+
+@media (max-width:815px)
+{
+    .onas
+    {
+        font-size: 16px;
+        letter-spacing: 0px;
+        padding: 30px;
+        line-height: 30px;
+    }
+
+    img
+    {
+        width: 200px;
+    }
+
+    button
+    {
+        padding: 10px;
+    }
+
+    button a
+    {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+@media (max-width:600px)
+{
+    .onas
+    {
+        font-size: 14px;
+        letter-spacing: 0px;
+        padding: 20px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width:500px)
+{
+    .onas
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 23px;
+    }
+
+    .onastitle
+    {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    img
+    {
+        width: 150px;
+    }
+
+    button
+    {
+        padding: 8px;
+    }
+
+    button a
+    {
+        font-size: 18px;
+    }
+}
+
+footer
+{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#s1_1
+{
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.transport, .onastitle, .dodacipod
+{
+    padding: 20px 20px 0px 20px;
+    text-align: left;
+}
+
+.sacgum
+{
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: var(--white);
+}
+
+.fotky
+{
+    padding: 0px 20px 0px 20px;  
+}
+
+.fotky_2
+{
+    padding: 20px;  
+}
+
+.svar_obr
+{
+    width: 240px;
+    margin-right: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+}
+
+.svar_foto
+{
+    width: auto;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+}
+
+.gum_foto
+{
+    margin-right: 10px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+}
+
+.fotky p
+{
+    color: var(--white);
+    padding: 20px 0px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 694px)
+{
+    .svar_obr
+    {
+        width: 200px;
+    }
+
+    .svar_foto
+    {
+        width: 300px;
+    }
+
+    .sacgum
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 23px;
+    }
+
+    .fotky p
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .transport, .onastitle
+    {
+        font-size: 35px;
+    }
+
+    footer
+    {
+        font-size: 14px;
+        height: 60px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 560px)
+{
+    .svar_obr
+    {
+        width: 150px;
+    }
+
+    .svar_foto
+    {
+        width: 200px;
+    }
+
+    .transport, .onastitle
+    {
+        font-size: 25px;
+        letter-spacing: 0.5px;
+    }
+
+    footer
+    {
+        font-size: 12px;
+        height: 50px;
+        padding: 13px;
+    }
+}
+
+@media (max-width: 405px)
+{
+    .svar_obr
+    {
+        margin-bottom: 10px;
+    }
+}
+
+#s1_2
+{
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.dodani
+{
+    padding: 10px 20px 10px 20px;
+}
+
+.dodani p
+{
+    color: var(--white);
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.cenik
+{
+    text-align: left;
+    padding: 20px 0px 0px 20px;
+}
+
+.cenik-text
+{
+    color: var(--white);
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.cenik-text a
+{
+    color: var(--third-color);
+    font-weight: 700;
+}
+
+.cenik-foto
+{
+    width: 550px;
+    margin: 20px 0px 20px 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+}
+
+@media (max-width: 610px)
+{
+    .cenik-foto
+    {
+        width: 400px;
+    }
+
+    .dodacipod, .cenik, .kontakt
+    {
+        font-size: 35px;
+        letter-spacing: 0.5px;
+    }
+
+    .cenik-text, .dodani p
+    {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 440px)
+{
+    .cenik-foto
+    {
+        width: 350px;
+    }
+
+        .dodacipod, .cenik, .kontakt
+    {
+        font-size: 25px;
+    }
+
+        .cenik-text, .dodani p
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 23px;
+    }
+}
+
+#s1_3
+{
+    width: 100%;
+    height: 105%;
+    background-color: var(--secondary-color);
+}
+
+.kontakt-info
+{
+    text-align: center;
+    color: var(--white);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 17px;
+}
+
+.kontakt
+{
+    padding-top: 20px;
+}
+
+label
+{
+    margin-top: 20px;
+}
+
+.email {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.email label
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    text-align: center
+}
+
+.email input,
+.email textarea 
+{
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.555);
+    resize: none;
+}
+
+.email input:focus, .email textarea:focus
+{
+    outline: none;
+}
+
+
+.email textarea 
+{
+    width: 400px;
+    height: 200px;
+}
+
+.mailbtn 
+{
+    display: block;
+    color: var(--white);
+    background-color: var(--third-color);
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.555);
+    transition: 0.2s all;
+    cursor: pointer;
+}
+
+@media (max-width: 1700px)
+{
+    .email textarea
+    {
+        width: 300px;
+        height: 100px;
+    }
+
+    .kontakt-info
+    {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    label
+    {
+        font-size: 14px;
+    }
+
+    .mailbtn
+    {
+        padding: 10px 25px;
+        font-size: 15px;
+    }
+}
+
+@media (max-height:600px) 
+{
+    #s1_3
+    {
+        height: 120%;
+    }  
+}

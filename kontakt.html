@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaparBag</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="index.html"><img src="fotky/chapar_logo.svg" alt="logo"></a>
+        </div>
+        <ul id="menuList">
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="sortiment.html">Sortiment</a></li>
+            <li><a href="dodani.html">Dodání a Ceník</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="menu-icon">
+            <img src="fotky/menu.png" alt="menu" onclick="toggleMenu()">
+        </div>
+    </nav>
+    <section id="s1_3">
+        <div class="obsah">
+            <h2 class="kontakt">Kon<span class="color">takt</span></h2>
+            <div class="kontakt-info">
+                <p>CHAPAR bag s.r.o.</p>
+                <p>Perleťářská <span class="color">214/5</span></p>
+                <p><span class="color">588 51</span> Batelov</p>
+                <p>IČ: 29259321</p>
+                <p>DIČ: CZ29259321</p>
+                <p>info@chapar.cz</p>
+                <p>+<span class="color">420 777</span> 121 <span class="color">598</span></p>
+            </div>
+            <div class="kontakt-info">
+                <p>Objednávky:</p>
+                <p>Vladimír Šprincl</p>
+                <p>+<span class="color">420 777</span> 121 <span class="color">598</span></p>
+                <p>chapar@seznam.cz</p>
+            </div>
+            <div class="email">
+                <form action="https://formspree.io/f/mnndylgd" method="POST">
+                <label>
+                    Váš e-mail:<input type="email" name="email">
+                </label>
+                <label>
+                    Vaše zpráva:<textarea name="message"></textarea>
+                </label>
+                <button class="mailbtn" type="submit">Odeslat</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 CHAPAR <span class="color">bag</span> s.r.o. Všechna práva vyhrazena.</p>
+    </footer>
+
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else{
+                menuList.style.maxHeight = "0px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
