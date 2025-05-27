@@ -642,3 +642,11 @@ label
         height: 120%;
     }  
 }
+
+@media (max-height:540px) 
+{
+    #s1_3
+    {
+        height: 130%;
+    }  
+}
